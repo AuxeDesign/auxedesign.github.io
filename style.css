@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+.pure-menu-item, .pure-menu-link {
+    color: #303030 !important;
+    font-size: 18px !important;
+    z-index: 6;
+}
+#header-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+#brand-title {
+    font-size: 96px;
+}
+.pure-menu {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    position: fixed;
+    top: 0;
+    background-image: url(auxebanner.png);
+    background-size: cover;
+    z-index: 6;
+    opacity: 1.0;
+}
+.dark {
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+    z-index: 3;
+    transform: translate(calc(-100%), -50%);
+    color: #303030 !important;
+}
+.light {
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+    z-index: 3;
+    transform: translate(0, -50%);
+    color: #FFFFFF !important;
+}
+#thestuff {
+    position: relative;
+    background-color: #FFFFFF;
+    z-index: 2;
+    margin-top: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    padding: 48px;
+    text-align: center;
+    z-index: 4;
+}
+i {
+    display: block;
+    font-size: 36pt;
+    line-height: 36pt;
+}
+
+.another-reason {
+    margin-top: 64px;
+}
+
+#logo {
+    width: auto;
+    height: 2em;
+}
+
+#pricing {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 96px 48px;
+    text-align: center;
+    z-index: 4;
+}
+
+.full-width {
+    width: 100%;
+}
